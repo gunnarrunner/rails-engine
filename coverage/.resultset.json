@@ -1,18 +1,92 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/mailers/application_mailer.rb": {
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/customer.rb": {
         "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
       },
       "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/application_record.rb": {
         "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/invoice_item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/invoice.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/merchant.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/models/transaction.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
           0,
           0,
           0
@@ -57,6 +131,6 @@
         }
       }
     },
-    "timestamp": 1630777357
+    "timestamp": 1630862130
   }
 }

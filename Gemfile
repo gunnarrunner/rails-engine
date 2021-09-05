@@ -38,6 +38,7 @@ group :development, :test do
   gem 'rubocop-rails'
   gem 'simplecov'
   gem 'webmock'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
