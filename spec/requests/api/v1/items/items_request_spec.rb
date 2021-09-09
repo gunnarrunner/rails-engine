@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe "Merchants API", type: :request do
+RSpec.describe "Items API", type: :request do
 
-  describe 'GET /merchants' do
-    it 'can give a list of 20 merchats successfully' do
+  describe 'GET /items' do
+    it 'can give a list of 20 items successfully' do
       create_list(:merchant, 25)
 
       get '/api/v1/merchants'

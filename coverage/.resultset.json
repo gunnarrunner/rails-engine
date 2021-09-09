@@ -88,21 +88,24 @@
         "lines": [
           1,
           1,
-          4,
+          5,
           3,
           3,
           3,
           3,
           null,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
           1,
+          2,
           1,
+          null,
           1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -139,6 +142,57 @@
         ]
       },
       "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/serializers/merchant_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/controllers/api/v1/merchants/items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/serializers/item_serializer.rb": {
         "lines": [
           1,
           1,
@@ -185,6 +239,6 @@
         }
       }
     },
-    "timestamp": 1631146209
+    "timestamp": 1631157505
   }
 }
