@@ -24,7 +24,7 @@ RSpec.describe "Merchants API", type: :request do
     it 'can give an error code when a merchant does not exist' do
       create_list(:merchant, 25)
 
-      get "/api/v1/merchants/51"
+      get "/api/v1/merchants/200"
       
       expect(response.status).to eq(404)
     end
