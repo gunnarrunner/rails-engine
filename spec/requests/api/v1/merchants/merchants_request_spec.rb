@@ -34,7 +34,7 @@ RSpec.describe "Merchants API", type: :request do
       expect(merchants[:data].length).to eq(0)
     end
 
-    it 'it can put it params for a page and number of merchants per page' do
+    it 'can put it params for a page and number of merchants per page' do
       create_list(:merchant, 50)
       
       get '/api/v1/merchants?page=1&per_page=35'
