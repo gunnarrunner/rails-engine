@@ -84,6 +84,122 @@
           null
         ]
       },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/controllers/api/v1/merchants_controller.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          3,
+          3,
+          3,
+          3,
+          null,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/serializers/merchant_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/controllers/api/v1/merchants/items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/serializers/item_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -95,14 +211,6 @@
         }
       },
       "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -131,6 +239,6 @@
         }
       }
     },
-    "timestamp": 1630862130
+    "timestamp": 1631157505
   }
 }
