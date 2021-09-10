@@ -30,15 +30,22 @@ class Api::V1::ItemsController < ApplicationController
     end
   end
 
-#   def update
-    
-#   end
+  def update
+    item = Item.find(params[:id])
+    if item.update(item_params)
+      render json: ItemSerializer.new(item)
+    else
+      render status: 404
+    end
+      rescue ActiveRecord::RecordNotFound
+    render status: 404
+  end
 
   def destroy
     item = Item.find(params[:id])
     render json: item.delete, status: 204
-    rescue ActiveRecord::RecordNotFound
-      render status: 404
+      rescue ActiveRecord::RecordNotFound
+    render status: 404
   end
   
 private
