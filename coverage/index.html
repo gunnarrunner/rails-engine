@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-09T15:03:09-06:00">2021-09-09T15:03:09-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-09T21:11:30-06:00">2021-09-09T21:11:30-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="yellow">
-  84.09%
+  85.42%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.24
+         1.33
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>88</b> relevant lines,
-    <span class="green"><b>74</b> lines covered</span> and
+    <b>96</b> relevant lines,
+    <span class="green"><b>82</b> lines covered</span> and
     <span class="red"><b>14</b> lines missed. </span>
     (<span class="yellow">
-  84.09%
+  85.42%
 </span>
 )
   </div>
@@ -95,11 +95,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#394dd961e0aa37417731037f18504d0ffe020b8b" class="src_link" title="app/controllers/api/v1/items_controller.rb">app/controllers/api/v1/items_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">47</td>
-            <td class="cell--number">15</td>
-            <td class="cell--number">15</td>
+            <td class="cell--number">45</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">23</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">2.13</td>
+            <td class="cell--number">2.22</td>
             
           </tr>
         
@@ -276,7 +276,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.97
+         2.05
        </span>
     </span> hits/line
     )
@@ -289,8 +289,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>36</b> relevant lines,
-    <span class="green"><b>36</b> lines covered</span> and
+    <b>44</b> relevant lines,
+    <span class="green"><b>44</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -319,11 +319,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#394dd961e0aa37417731037f18504d0ffe020b8b" class="src_link" title="app/controllers/api/v1/items_controller.rb">app/controllers/api/v1/items_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">47</td>
-            <td class="cell--number">15</td>
-            <td class="cell--number">15</td>
+            <td class="cell--number">45</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">23</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">2.13</td>
+            <td class="cell--number">2.22</td>
             
           </tr>
         
@@ -1089,8 +1089,8 @@
     
 
     <div class="t-line-summary">
-      <b>15</b> relevant lines.
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>23</b> relevant lines.
+      <span class="green"><b>23</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1344,24 +1344,24 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">#   def new</code>
+            
+
+            <code class="ruby">  def create</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="24">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="24">
+            <span class="hits">4</span>
             
 
-            <code class="ruby">    </code>
+            
+
+            <code class="ruby">    item = Item.new(item_params)</code>
           </li>
         </div>
       
@@ -1372,29 +1372,29 @@
 
             
 
-            <code class="ruby">#   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="26">
-            
-            
-
-            
-
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="27">
+          <li class="covered" data-hits="4" data-linenumber="26">
+            <span class="hits">4</span>
             
+
+            
+
+            <code class="ruby">    if item.save</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="27">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">#   def create</code>
+            <code class="ruby">      render json: ItemSerializer.new(item), status: 201</code>
           </li>
         </div>
       
@@ -1405,18 +1405,18 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby">    else</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="29">
+            <span class="hits">2</span>
             
 
-            <code class="ruby">#   end</code>
+            
+
+            <code class="ruby">      render status: 404</code>
           </li>
         </div>
       
@@ -1427,7 +1427,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -1438,7 +1438,7 @@
 
             
 
-            <code class="ruby">#   def edit</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -1449,7 +1449,7 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1460,7 +1460,7 @@
 
             
 
-            <code class="ruby">#   end</code>
+            <code class="ruby">#   def update</code>
           </li>
         </div>
       
@@ -1471,7 +1471,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    </code>
           </li>
         </div>
       
@@ -1482,7 +1482,7 @@
 
             
 
-            <code class="ruby">#   def update</code>
+            <code class="ruby">#   end</code>
           </li>
         </div>
       
@@ -1493,7 +1493,7 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1504,7 +1504,7 @@
 
             
 
-            <code class="ruby">#   end</code>
+            <code class="ruby">#   def destroy</code>
           </li>
         </div>
       
@@ -1515,7 +1515,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    </code>
           </li>
         </div>
       
@@ -1526,7 +1526,7 @@
 
             
 
-            <code class="ruby">#   def destroy</code>
+            <code class="ruby">#   end</code>
           </li>
         </div>
       
@@ -1537,40 +1537,40 @@
 
             
 
-            <code class="ruby">    </code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="41">
-            
-            
-
-            
-
-            <code class="ruby">#   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="42">
-            
-            
-
-            
-
             <code class="ruby">  </code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="43">
+          <li class="covered" data-hits="1" data-linenumber="41">
+            <span class="hits">1</span>
             
+
+            
+
+            <code class="ruby">private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby"># private</code>
+            <code class="ruby">  def item_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="4" data-linenumber="43">
+            <span class="hits">4</span>
+            
+
+            
+
+            <code class="ruby">    params.require(:item).permit(:name, :description, :unit_price, :merchant_id)</code>
           </li>
         </div>
       
@@ -1581,34 +1581,12 @@
 
             
 
-            <code class="ruby">#   def _params</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="45">
-            
-            
-
-            
-
-            <code class="ruby">#     params.permit(:)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="46">
-            
-            
-
-            
-
-            <code class="ruby">#   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="47">
             
             
 
@@ -3158,7 +3136,7 @@
 
             
 
-            <code class="ruby">  validates :unit_price, presence: true</code>
+            <code class="ruby">  validates :unit_price, presence: true, numericality: true</code>
           </li>
         </div>
       
@@ -3299,7 +3277,7 @@
 
             
 
-            <code class="ruby">  validates :unit_price, presence: true</code>
+            <code class="ruby">  validates :unit_price, presence: true, numericality: true</code>
           </li>
         </div>
       
