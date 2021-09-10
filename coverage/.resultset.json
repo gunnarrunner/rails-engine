@@ -291,46 +291,8 @@
           null,
           null
         ]
-      },
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/gunnarrunkle/turing/mod3/projects/rails-engine/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1631253798
+    "timestamp": 1631254741
   }
 }
