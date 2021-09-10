@@ -34,9 +34,12 @@ class Api::V1::ItemsController < ApplicationController
     
 #   end
 
-#   def destroy
-    
-#   end
+  def destroy
+    item = Item.find(params[:id])
+    render json: item.delete, status: 204
+    rescue ActiveRecord::RecordNotFound
+      render status: 404
+  end
   
 private
   def item_params
